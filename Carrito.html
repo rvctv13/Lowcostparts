@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carrito de compras</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="dark">
+  <header>
+    <h1>Carrito</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="catalogo.html">Catálogo</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carrito-items">
+      <p>No hay productos en el carrito.</p>
+    </section>
+
+    <section>
+      <button onclick="pagarConPayPal()">Pagar con PayPal</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lowcost Racing Parts</p>
+  </footer>
+
+  <script>
+    function pagarConPayPal() {
+      window.location.href = "https://www.paypal.com/paypalme/rvcjenius";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Catálogo - Lowcost Racing Parts</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body class="dark">
+  <header>
+    <h1>Catálogo de Productos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="carrito.html">Carrito</a>
+      <a href="admin.html">Admin</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Filtrar por modelo</h2>
+      <select id="filtro">
+        <option value="todos">Todos</option>
+        <option value="e36">BMW E36</option>
+        <option value="e46">BMW E46</option>
+        <option value="e90">BMW E90</option>
+      </select>
+    </section>
+
+    <section id="catalogo" class="productos-grid">
+      <!-- Productos cargados por scripts.js -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Lowcost Racing Parts</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
